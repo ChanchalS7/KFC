@@ -1,0 +1,314 @@
+*{
+    list-style: none;
+}
+h4{
+    color: wheat;
+}
+#homepage{
+margin-top: 100px;
+}
+#offer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+#content{
+    width: 41%;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    height: 100%;
+    justify-content: space-between;
+    /* padding-top: 20px; */
+}
+#content>li:nth-child(1){
+    font-size: 18px;
+    color: antiquewhite;
+}
+#orderbtn{
+    padding: 10px 47px;
+    border-radius: 25px;
+    background-color:#e4002b;;
+    color: white;
+    border: transparent;
+line-height: 24px;
+font-size: 14px;
+margin-top: 4px;
+ font-weight: 500;
+}
+
+#DkfcImg{
+    width: 100%;
+    height:350px;
+    background-image: url("https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg");
+}
+#DkfcImg h1{
+       font-size: 50px;
+       text-align: center;
+       color: white;
+       padding-top:120px ;
+       /* margin-top: 150px; */
+}
+/* //////////////////////////////////////////////////// */
+.pastorder-container {
+background: #f8f7f5;
+display: flex;
+}
+.pastorder-left-container {
+width: 30%;
+margin-left: 13%;
+}
+.pastorder-left-container {
+width: 30%;
+margin-left: 13%;
+}
+.pastorder-stripes {
+width: 40px;
+height: 20px;
+background: repeating-linear-gradient(90deg,#e4002b,#e4002b 8px,#fff 0,#fff 16px);
+}
+.pastorder-greeting-heading {
+font-family: "National 2 Condensed";
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 58px;
+text-transform: uppercase;
+color: #202124;
+margin-top: 29.71px;
+margin-bottom: 30px;
+}
+/* /////////////////////////// */
+#Dcategories>div{width: 77%;
+/* height: 400px; */
+height: auto;
+margin-left: 270px;
+margin-right: 40px;
+/* border: 2px solid green; */
+}
+
+#Dbrowsediv{
+display: flex;
+}
+.Dbrowse-parent .Dbrowse {
+margin-right: 31px;
+font-family: "National 2 Condensed";
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 43px;
+letter-spacing: .5px;
+text-transform: uppercase;
+color: #202124;
+margin-top: 70px;
+margin-bottom: 55px;
+}
+.horizontal-line{
+margin-top:90px ;
+background-color:rgb(175, 174, 174);
+height: 1.3px;
+width: 60%;
+}
+
+
+
+
+.DfoodBox{
+
+    border:1px solid transparent;
+    display: grid;
+    grid-template-columns: repeat(3,28.5%);
+    justify-content: space-evenly;
+     /* border: 2px solid blueviolet; */
+     margin-right: 20px;
+    color: black;
+    margin-bottom: 30px;
+
+     }
+     .xyz button{
+         padding: 12px 50px;
+         /* background-color: red; */
+         border-radius: 30px;
+         border:1px solid black;
+         color: black;
+        margin-left: 150px;
+        background-color: #fff;
+        margin-bottom: 20px;
+     }
+   .xyz p{
+         text-align:center ;
+         margin-left: 10px;
+         margin-right: 10px;
+
+     }
+     a{
+        text-decoration: none; 
+}
+      .xyz{
+          width: 100%;
+          /* border: 2px solid red; */
+          line-height: 20px;
+          /* box-shadow: ; */
+        }
+.xyz img{
+    /* height: 100%; */
+    width: 100%;
+   border-start-end-radius: 3%;
+   border-start-start-radius: 3%;
+   
+
+}
+
+.DfoodBox div  {
+    border:1px solid transparent;
+    /* height: 260px; */
+    text-align: center;
+    font-weight: 400;
+    cursor: pointer;
+    /* border-radius: 5%; */
+    /* border: 2px solid blue; */
+
+}
+
+
+
+/* //////////////////////////////////////// */
+        .popup-overlay{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+.popup{
+position: fixed;
+top: -150%;
+left: 50%;
+transform: translate(-50%,-50%);
+width:57% ;
+background-color: whitesmoke;
+height: 600px;
+/* background-color: aqua; */
+padding: 20px;
+text-align: center;
+}
+.popup .popup-close-btn{
+position: absolute;
+top: 10px;
+right: 30px;
+font-size:40px ;
+cursor: pointer;
+font-weight: bold;
+
+}
+.popup button{
+display: block;
+font-size: 20px;
+margin: auto;
+/* padding: 10px 120px; */
+width: 31%;
+height: 45px;
+border-radius: 30px;
+margin-top: 35px;
+margin-bottom: 30px;
+border: 1px solid black;
+}
+.popup button:nth-child(1){
+margin-top: 20px;
+}
+body.popup-active .popup{
+top:50%;
+}
+
+body.popup-active .popup-overlay{
+display: block;
+}
+/* /////////////////////////////////// */
+
+.fpastorder-container {
+background-color: #212529;
+display: flex;
+background-color: #212529;
+}
+.fpastorder-left-container {
+width: 30%;
+margin-left: 13%;
+
+}
+.fpastorder-left-container {
+width: 30%;
+background-color: #212529;
+margin-left: 13%;
+}
+.fpastorder-stripes {
+width: 90px;
+height: 50px;
+background: repeating-linear-gradient(90deg,#e4002b,#e4002b 20px,#212529 0,#212529 35px);
+justify-content: space-between;
+}
+.fpastorder-greeting-heading {
+font-family: "National 2 Condensed";
+font-style: normal;
+font-weight: 0;
+font-size: 44px;
+line-height: 58px;
+text-transform: uppercase;
+color:white;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+#Dcoupan{
+
+  border:1px solid transparent;
+  display: grid;
+  grid-template-columns: repeat(5,19%);
+  justify-content: space-between;
+  height: 410px;
+  color: black;
+  
+   }
+   a{
+      text-decoration: none; 
+}
+#Dcoupan>div>img{
+  height: 55%;
+  width: 100%;
+  /* border-radius: 10px; */
+}
+#Dcoupan>div{
+  border:1px solid transparent;
+  /* width: 15%; */
+  height: 500px;
+  text-align: center;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* #coupan>div:nth-child(1){
+  margin-left: 300px;
+} */
+
+.Ddesc{
+  /* margin-top: 10px; */
+  text-align: center;
+  height: 70px;
+  padding-top: 20px;
+  background-color: rgb(250, 249, 249);
+  /* background-color: #e4002b; */
+  font-size: 20px;
+  /* border-radius: 10px; */
+  font-weight:bold;
+}
+h2{
+  background-color: white;
+  color: #e4002b;
+  font-size: 33px;
+}
+#bottom{
+margin-top: 100px;
+background-color: #212529;
+}

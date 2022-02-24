@@ -1,0 +1,40 @@
+.container{
+    height: 640px;
+    width: 50%;
+    margin: auto;
+    border: 2px solid rebeccapurple;
+    line-height: 80px;
+    background-color: rgb(247,248,245);
+    
+   }
+   #payop{
+       width: 85%;
+       height: 70px;
+       border: 2px solid black;
+       margin: auto;
+       gap: 10px;
+       margin-bottom: 10px;
+       border-radius: 10px;
+       background-color: white;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   }
+  #card {
+accent-color: black;
+}
+button{
+/* padding-left: 60px;
+padding-right: 60px;
+padding-top: 40px;
+padding-bottom: 40px; */
+font-size: 30px;
+padding: 25px ;
+
+border-radius: 30px;
+padding-right: 80px;
+padding-left: 80px;
+margin: auto;
+text-align: center;
+justify-content: center;
+margin-left: 41%;
+
+}

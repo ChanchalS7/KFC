@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otp-Validation</title>
+    <link rel="icon" href="https://online.kfc.co.in/favicon.ico">
+    <script src="https://kit.fontawesome.com/6595c98d7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/otp.css">
+</head>
+<body>
+<div id="mainC">
+    <div id="oneC">Sign In / Sign up</div>
+    <div id="twoC"><a href="index.html"><img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt=""></a></div>
+    <div id="threeC">WE JUST TEXTED YOU</div>
+   
+    <div id="fourC">Please enter the verification code we just sent to your mobile number
+    </div>
+     <div id="fiveC"><a href="">Different Number</a> </div>
+        <div id="sixC">
+         <input type="text" maxlength="1" id="txt1" onkeyup="move(event,'', 'txt1', 'txt2')">
+         <input type="text" maxlength="1" id="txt2" onkeyup="move(event, 'txt1', 'txt2','txt3')">
+         <input type="text" maxlength="1" id="txt3" onkeyup="move(event, 'txt2', 'txt3','txt4')">
+         <input type="text" maxlength="1" id="txt4" onkeyup="move(event, 'txt3','txt4','')">
+       
+     </div>
+    <!-- <div id="sevenC"> Your code will expire in 0:30sec </div> -->
+    <div id="eightC">Resend the code</div>
+        <div id="nineC"><a href="index.html"><button> Submit</button></a></div>
+        
+
+</div>
+</body>
+</html>
+<script src="./scripts/otp.js"></script>
+   

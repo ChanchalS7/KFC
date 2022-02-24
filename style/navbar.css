@@ -1,0 +1,96 @@
+a{
+    text-decoration: none; 
+    color: black;
+    text-transform: capitalize;
+   font-weight: 700;
+    margin-left: 12px;
+ }
+ *{
+     list-style: none;  
+     
+ }
+ nav{
+     height: 100px;
+     display: flex;
+     background-color:white;
+     justify-content: space-between;
+     position: fixed;
+     /* position: absolute; */
+     width: 100%;
+     top:0;
+     overflow: hidden;
+ 
+ }
+ #leftnav li{
+     color: black;
+ }
+ #left{
+     display: flex;
+     justify-content: space-between;
+     width: 15%;
+     border: 1px solid transparent;
+     margin-left: 120px;
+    align-items: center;
+ }  
+ #leftnav{
+     display: flex;
+     border: 1px solid transparent;
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     
+ }
+ #rightnav{
+     width: 100%;
+     border: 1px solid transparent; 
+     display: flex;
+     justify-content: space-between;
+     height: 45px;
+     }
+     /* #rightnav>li:nth-child(2){
+margin-right: 20px;
+     } */
+ #right{
+      display: flex;
+     justify-content: space-between;
+     width: 20%;
+     border: 1px solid transparent;
+     align-items: center;
+     margin-right: 170px;
+     
+     }
+
+ #signin{
+     display: flex;
+     align-items: center;
+     /* border: 1px solid red; */
+     border: 1px solid transparent;
+     width: 50%;
+     margin-right: 20px;
+     /* justify-content: space-evenly; */
+ }
+
+#line{
+height: 100%;
+width: 1.2px;
+background-color:rgb(211, 209, 209);
+
+
+}
+#logo{
+     display: flex;
+     align-items: center;
+     border: 1px solid transparent;
+     justify-content: space-between;
+     width: 30%;
+}
+.kfcLogo1{
+width: 60px;
+height: 20px;
+
+}
+.kfcLogo2{
+width: 60px;
+height: 45px;
+
+}
